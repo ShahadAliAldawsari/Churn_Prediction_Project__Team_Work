@@ -1,1 +1,2 @@
-# Churn_Prediction_Project__Team_Work
+# You can veset and try our app!
+# https://churn-prediction-project.streamlit.app
