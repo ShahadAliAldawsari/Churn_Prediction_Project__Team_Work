@@ -111,7 +111,7 @@ css2 = """
 st.markdown(css2, unsafe_allow_html=True)
 
 # Display the image with rounded corners
-image_path2 = 'ch7.jpg'
+image_path2 = 'Deployment/ch7.jpg'
 image_html2 = f'<div class="rounded-image"><img src="data:image/jpeg;base64,{base64.b64encode(open(image_path2, "rb").read()).decode()}"></div>'
 st.markdown(image_html2, unsafe_allow_html=True)
 st.markdown("Are you an employer and you want to know if your employee will continue working with you or not? ")
