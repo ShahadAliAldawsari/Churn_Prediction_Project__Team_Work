@@ -242,7 +242,7 @@ try:
             st.markdown(css2, unsafe_allow_html=True)
 
             # Display the image with rounded corners
-            image_path2 = 'ch.jpg'
+            image_path2 = 'Deployment/ch.jpg'
             image_html2 = f'<div class="rounded-image"><img src="data:image/jpeg;base64,{base64.b64encode(open(image_path2, "rb").read()).decode()}"></div>'
             st.markdown(image_html2, unsafe_allow_html=True)
 
@@ -254,7 +254,7 @@ try:
             # st.image(img, caption="left")
             st.markdown(css2, unsafe_allow_html=True)
             # Display the image with rounded corners
-            image_path3 = 'ch6.jpg'
+            image_path3 = 'Deployment/ch6.jpg'
             image_html3 = f'<div class="rounded-image"><img src="data:image/jpeg;base64,{base64.b64encode(open(image_path3, "rb").read()).decode()}"></div>'
             st.markdown(image_html3, unsafe_allow_html=True)
 
