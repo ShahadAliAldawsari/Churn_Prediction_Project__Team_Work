@@ -45,7 +45,7 @@ css = """
 st.markdown(css, unsafe_allow_html=True)
 
 # Display the image with rounded corners
-image_path = '..\Deployment\ch5.png'
+image_path = 'Deployment/ch5.png'
 image_html = f'<div class="rounded-image"><img src="data:image/jpeg;base64,{base64.b64encode(open(image_path, "rb").read()).decode()}"></div>'
 st.markdown(image_html, unsafe_allow_html=True)
 
