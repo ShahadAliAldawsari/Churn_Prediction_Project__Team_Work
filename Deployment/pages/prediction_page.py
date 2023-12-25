@@ -138,7 +138,7 @@ average_montly_hours = st.sidebar.slider(
 
 
 
-filename = "Debloyment/final_model"
+filename = "Deployment/final_model"
 model=pickle.load(open(filename, "rb"))
 
 
